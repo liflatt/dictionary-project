@@ -8,7 +8,7 @@ function App() {
         <header className="App-header">
           <h1>Dictionary App</h1>
           <main className="mt-4 d-flex justify-content-center">
-            <Dictionary />
+            <Dictionary default="marry" />
           </main>
         </header>
         <footer className="mt-5">
