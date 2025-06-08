@@ -5,13 +5,11 @@ function App() {
   return (
     <div className="App mt-5">
       <div className="container">
-        <header className="App-header">
-          <h1>Dictionary App</h1>
-          <main className="mt-4 d-flex justify-content-center">
-            <Dictionary default="marry" />
-          </main>
-        </header>
-        <footer className="mt-5">
+        <h1 className="mt-5 mb-5">Dictionary App</h1>
+        <main>
+          <Dictionary defaultKeyword="daydream" />
+        </main>
+        <footer>
           <p>
             Coded by Lindsey Flatt,{" "}
             <a

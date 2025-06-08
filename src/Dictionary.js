@@ -51,6 +51,7 @@ export default function Dictionary(props) {
               onChange={handleKeywordChange}
               placeholder="Enter a word"
               defaultValue={props.defaultKeyword}
+              required
             />
           </form>
         </section>
